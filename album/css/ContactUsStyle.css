@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding: 0%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+  background-image: url(https://attachment.outlook.live.net/owa/MSA%3Amiladalhilfe%40hotmail.com/service.svc/s/GetAttachmentThumbnail?id=AQMkADAwATY3ZmYAZS1mM2Y2LWY5YmEtMDACLTAwCgBGAAADagtR3tHijkiUJwI%2FFdNVBAcArENvVWftF0SYSk4xmoZzbAAAAgEJAAAArENvVWftF0SYSk4xmoZzbAAExYSIyAAAAAESABAAR3nKd%2FMqHkyE6kWK3FidtQ%3D%3D&thumbnailType=2&isc=1&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjMwODE3OUNFNUY0QjUyRTc4QjJEQjg5NjZCQUY0RUNDMzcyN0FFRUUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJNSUY1emw5TFV1ZUxMYmlXYTY5T3pEY25ydTQifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2subGl2ZS5jb20iLCJ1YyI6ImY5OTA1NjM0MWE2NDQzMzZiMTAwOTg2ZDJjYjFmZmJkIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjE4Mjk1ODI4NTE3MzM5NDZcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCIwMDA2N2ZmZS1mM2Y2LWY5YmEtMDAwMC0wMDAwMDAwMDAwMDBcIixcInByaW1hcnlzaWRcIjpcIlMtMS0yODI3LTQyNTk4Mi00MDkzMDQ5Mjc0XCJ9IiwibmJmIjoxNjMxNjQ2NTMzLCJleHAiOjE2MzE2NDcxMzMsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudC5vdXRsb29rLmxpdmUubmV0QDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImhhcHAiOiJvd2EifQ.IO3_mqx77s9V1vXM13vNgSpuDk3tTbzZ2f8msWZyyPACxwRAG4HoWZrpBXOO5IyE8lqJBeomW9rbupSeAt2rjVML1u6uEpBFXa8DqkJGpItQq3AMtWu43CbJ3pMXCg04Ue9DUxaEFrumlQnKSHY1LDAqXGBrUH5YYn5HJX6ybznEqN1naH41FblEQdWPnBEKvs0TxJtpkeVGp5XOzHuMFGRC7YXktQ_5-rKY850QHJqIhp4Z2sqYtYZ_X2L5fwlZneBzIyR2vIAjf0wJE1EZaXQX0C8xAcfzuaBerU7SICo-XBK3F9c7nfgW3xmj9EY8wVxz-Yv13p5iSKKFsnhm0A&X-OWA-CANARY=qrwlvKo8ekOzHE906ik5UqCBZTyzd9kYT2oS4J8yyyroNH03xlIrkRwsb81iiZ_aFolSLKG8DxQ.&owa=outlook.live.com&scriptVer=20210906004.06&animation=true);
+}
+
+
+
+h1 {
+margin: 0 0 20px;
+font-weight: 400;
+color: #ffffff;
+text-align: center;
+font-weight: 900px;
+}
+p {
+margin: 0 0 5px;
+}
+.main-block {
+color:white;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+min-height: 100vh;
+
+background-size: 1300PX 600px;
+margin-top: 0%;
+
+
+
+
+}
+.div1{
+    background-color:rgba(14, 36, 231, 0.068);
+    padding:20px;
+    box-shadow: 0 2px 5px #666;
+
+}
+form {
+padding: 25px;
+margin: 25px;
+background: #4e494900; 
+
+
+
+}
+.fas {
+margin: 25px 10px 0;
+font-size: 72px;
+color: #fff;
+}
+.fa-envelope {
+transform: rotate(-20deg);
+}
+.fa-at , .fa-mail-bulk{
+transform: rotate(10deg);
+}
+.in,textarea {
+width: calc(100% - 18px);
+padding: 8px;
+margin-bottom: 20px;
+border:0;
+outline: none;
+background-color: #4e494900;
+color:white;
+font-weight: 600px;
+border-bottom: 1px solid white;
+}
+input::placeholder {
+color: rgb(235, 230, 230);
+}
+button {
+width: 100%;
+padding: 10px;
+border: none;
+background:rgba(91, 99, 209, 0.794);
+font-size: 16px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+}
+button:hover {
+background: #333;
+}    
+@media (min-width: 568px) {
+
+
+.main-block {
+flex-direction: row;
+float:inline-start;
+}
+
+}

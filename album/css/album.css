@@ -1,0 +1,61 @@
+
+
+
+body{
+
+  background-color:white ;
+  
+}
+
+
+#logo{
+
+  width:70px;
+
+}
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  height: 30px;
+  margin-top:0;
+margin-bottom: 0;
+  background-color: rgba(24, 6, 56, 0.911);
+}
+@media (min-width:400px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    background-color:white;
+  
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 600;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+background-color: rgba(26, 9, 54, 0.911);
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow {
+   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+}

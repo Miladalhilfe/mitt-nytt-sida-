@@ -1,0 +1,32 @@
+ 
+
+#nav2 {
+  margin-bottom: 20px;
+  color:black;
+
+}
+
+ #logo{
+   width: 70px;
+   height: 50px;
+   
+ }
+ .nav-item:hover, .dropdown-item:hover{
+    background-color:#0e1234; 
+ }
+  .dropdown-menu.dropdown-item{
+    color:#999;       
+transition: color 0.5s linear; /* vendorless fallback */
+-o-transition: color 0.5s linear; /* opera */
+-ms-transition: color 0.5s linear; /* IE 10 */
+-moz-transition: color 0.5s linear; /* Firefox */
+-webkit-transition: color 0.5s linear; /*safari and chrome */
+  
+}
+a{
+  
+  font-size: 14px;
+ 
+}
+ 
+ 
